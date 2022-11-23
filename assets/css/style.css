@@ -97,3 +97,51 @@ article {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+main section {
+    width: 100%;
+    display: inline-block;
+    margin: 20px;
+}
+
+main section h2 {
+    margin-bottom: 10px;
+}
+
+.file-description-left {
+    float: left;
+    display: block;
+    width: 20%;
+    padding: 12px 16px;
+
+}
+
+.files {
+    display: flex;
+    justify-content: space-between;
+    float: center;
+    border: 0px;
+    padding: 12px 16px;
+    background-color: #E8E5E6;
+
+}
+
+.files img {
+    width: 200px;
+    margin: 20px;
+    border: 8px solid white;
+}
+
+main section p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+main section ul li {
+    display: flex;
+    justify-content: flex-start;
+    float: none;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
