@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    ;
 }
 
 body {
@@ -11,13 +13,25 @@ body {
 nav {
     overflow: hidden;
     background-color: black;
-    padding: 20px;
+    padding: 10px;
+    text-shadow: 1px 1px;
+
 }
 
 nav button img {
     object-fit: cover;
     width: 75px;
     height: 75px;
+}
+
+nav button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .dropdown {
@@ -101,7 +115,7 @@ article {
 
 main section {
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
 }
 
 main section h2 {
@@ -127,17 +141,25 @@ main section h2 {
 
 .files {
     display: flex;
-    justify-content: space-around;
     float: none;
     border: 0px;
-    padding: 12px;
+    padding: 10px;
     background-color: #E8E5E6;
     overflow: hidden;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: auto;
 
 }
 
-.files img {
-    width: 150px;
+.files-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.files-section img {
+    width: 50%;
     margin: 20px;
     border: 8px solid white;
 }
@@ -177,10 +199,11 @@ ul {
     text-align: center;
 }
 
+/*
 .files-section {
     display: block;
 }
-
+*/
 
 .files-section h3 {
     text-align: center;
