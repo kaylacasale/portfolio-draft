@@ -92,16 +92,19 @@ article {
 
 .folder-sections {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 40px;
+    left: 40px;
     width: 100px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .folder-sections img {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     margin-bottom: 12px;
 }
 
@@ -110,7 +113,7 @@ article {
     text-align: center;
     font-size: 18px;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 main section {
