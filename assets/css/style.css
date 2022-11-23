@@ -63,9 +63,36 @@ nav button img {
     display: block;
 }
 
+article {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 .background-image {
     margin-bottom: 25px;
     width: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.folder-sections {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.folder-sections img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.folder-sections h2 {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
 }
