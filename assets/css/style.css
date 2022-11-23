@@ -88,11 +88,12 @@ article {
     position: relative;
     width: 100px;
     height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .folder-sections h2 {
     position: relative;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 20px;
 }
