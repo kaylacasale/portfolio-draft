@@ -155,7 +155,7 @@ main section h2 {
 
 }
 
-.files-section {
+.files-section a {
     display: flex;
     flex-direction: column;
     align-items: center;
