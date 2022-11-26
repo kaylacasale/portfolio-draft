@@ -147,7 +147,7 @@ main section h2 {
     float: none;
     border: 0px;
     padding: 10px;
-    background-color: #E8E5E6;
+    background-color: gainsboro;
     overflow: hidden;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -180,9 +180,18 @@ ul {
     display: flex;
     justify-content: flex-start;
     float: left;
-    padding: 3px;
+    padding: 5px;
     text-decoration: none;
     text-align: center;
+    font-size: 12px;
+
+}
+
+.file-description-left button {
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke;
+    padding: 10px;
 }
 
 .file-description-right h2,
@@ -196,18 +205,83 @@ ul {
     display: flex;
     justify-content: flex-end;
     float: right;
-    padding: 3px;
+    padding: 5px;
     text-decoration: none;
     text-align: center;
+    font-size: 12px;
 }
 
-/*
-.files-section {
-    display: block;
+.file-description-right button {
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke;
+    padding: 10px;
 }
-*/
 
 .files-section h3 {
     text-align: center;
     font-size: 12px;
+}
+
+#contact {
+    position: relative;
+
+}
+
+#contact img {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.background-image-2 {
+    margin-bottom: 25px;
+    background-size: cover;
+}
+
+#contact form label {
+    display: inline-block;
+    width: 150px;
+    color: #93D2FC;
+}
+
+#contact section h2,
+form {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#contact form h2 {
+    text-align: center;
+}
+
+#contact form input {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 10px;
+}
+
+#contact form h2 {
+    font-size: 28px;
+    color: #93D2FC;
+    margin-bottom: 25px;
+}
+
+#message {
+    height: 100px;
+}
+
+form button {
+    height: 40px;
+    width: 120px;
+    background-color: #e9f1fa;
+    color: #93D2FC;
+    float: right;
+    border: 2px solid #93D2FC;
+    border-radius: 10px;
 }
