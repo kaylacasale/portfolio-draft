@@ -152,6 +152,7 @@ main section h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: auto;
+    border-radius: 10px;
 
 }
 
