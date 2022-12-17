@@ -154,6 +154,9 @@ main section h2 {
     flex-basis: auto;
     border-radius: 10px;
 
+    overflow-x: auto;
+    overscroll-behavior-inline: inline-block;
+
 }
 
 .files-section a {
@@ -162,7 +165,8 @@ main section h2 {
     align-items: center;
 }
 
-.files-section img {
+.files-section img,
+video {
     width: 240px;
     margin: 10px;
     border: 8px solid white;
