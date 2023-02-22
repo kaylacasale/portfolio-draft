@@ -7,6 +7,9 @@ My public repository of deployed web applications.
 
 **Link to my GitHub repository:** https://github.com/kaylacasale/portfolio
 
+## Preview
+![Portfolio Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBkYzI1Y2NkNTBlMDM2MTQ2YjQ1YjA3YjkyZDc2YzNjZGYwMTdlNiZjdD1n/6JDvCpOmLp1jkElkBb/giphy.gif "GIF Mockup Preview of Portfolio Features")
+
 ## User Story
 AS a **developer**
 
